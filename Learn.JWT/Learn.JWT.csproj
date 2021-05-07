@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Learn.IRepository\Learn.IRepository.csproj" />
+    <ProjectReference Include="..\Learn.IService\Learn.IService.csproj" />
+    <ProjectReference Include="..\Learn.Model\Learn.Model.csproj" />
+    <ProjectReference Include="..\Learn.Repository\Learn.Repository.csproj" />
+    <ProjectReference Include="..\Learn.Service\Learn.Service.csproj" />
+  </ItemGroup>
+
+</Project>
